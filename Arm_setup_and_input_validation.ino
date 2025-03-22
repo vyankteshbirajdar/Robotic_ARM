@@ -17,10 +17,8 @@ Servo R_servo;
 // Defining limitation parameters
 int16_t B_min, B_max, S_min, S_max, E_min, E_max, P_min, P_max, R_min, R_max;  // angle
 int8_t L1, L2, L3 ;                                               // link
-
 // const value 
 const int S_dealy = 700 ;
-
 //_____________________________________________________________________________________________ DECLEARNING ROTATIONNAL ANGLE LIMIT  ________________________________________________________________________________________________________________//
 void Rotation_lim() {
   Serial.println("Enter each angle limit one at a time when prompted (press Enter after each value):");
