@@ -124,6 +124,7 @@ void link_lim() {
   while (Serial.available() > 0) Serial.read();
 
   // Get Link 3
+  
   Serial.print("Link 3 length: ");
   while (Serial.available() == 0) { delay(100); }
   L3 = Serial.parseInt();
